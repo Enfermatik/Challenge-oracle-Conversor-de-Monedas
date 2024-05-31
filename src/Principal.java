@@ -44,12 +44,8 @@ public class Principal {
                     ConvertirMoneda.convertir("COP", "USD", consulta, lectura);
                     break;
                 case 7:
-                    ConvertirMoneda.convertirOtraMoneda(consulta, lectura);
-                    break;
-                case 8:
                     System.out.println("Saliendo...");
                     break;
-
                 default:
                     System.out.println("Opción no válida");
                     break;
